@@ -25,7 +25,9 @@ const MeAndFriendConversation = () => {
                 {item.MyText}
               </p>
               <div className="flex items-center justify-between">
-                <p className="text-xs text-[#7C8092] dark:text-gray-300">{item.MyTime}</p>
+                <p className="text-xs text-[#7C8092] dark:text-gray-300">
+                  {item.MyTime}
+                </p>
                 <RiCheckDoubleFill className="text-[#30323E]" />
               </div>
             </div>
@@ -38,7 +40,12 @@ const MeAndFriendConversation = () => {
               alt="Friend"
             />
             <div className="bg-white p-3 rounded-lg max-w-[70%] space-y-1 dark:bg-[#323232]">
-              <p className="text-sm dark:text-white">{item.FriendText}</p>
+              <p
+                className="text-sm dark:text-white"
+                id={`friend-text-${index}`}
+              >
+                {item.FriendText}
+              </p>
               <div className="flex items-center justify-between">
                 <p className="text-xs text-[#7C8092]">{item.FriendMyTime}</p>
                 <RiCheckDoubleFill className="text-[#30323E]" />
@@ -53,7 +60,7 @@ const MeAndFriendConversation = () => {
                     : "Translate message"}
                 </button>
                 {messageToTranslate === item.FriendText && (
-                  <TranslateMessage message={item.FriendText} />
+                  <TranslateMessage message={item.FriendText} messageIndex={index} />
                 )}
               </div>
             </div>

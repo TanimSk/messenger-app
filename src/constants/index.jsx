@@ -156,6 +156,8 @@ export const chating_between = [
     FriendText:
       "That sounds like a great idea! What kind of features are you considering?",
     FriendMyTime: "12:31",
+    translatedText:
+      "¡Eso suena como una gran idea! ¿Qué tipo de características estás considerando?",
   },
   {
     MyText:
@@ -165,6 +167,8 @@ export const chating_between = [
     FriendText:
       "I agree. We should also include a portfolio section to showcase our work. Maybe a blog section too?",
     FriendMyTime: "12:33",
+    translatedText:
+      "Estoy de acuerdo. También deberíamos incluir una sección de portafolio para mostrar nuestro trabajo. ¿Tal vez una sección de blog también?",
   },
   {
     MyText:
@@ -174,6 +178,8 @@ export const chating_between = [
     FriendText:
       "I prefer a modern look with a clean and minimalist design. Lots of white space and a good use of color. What about you?",
     FriendMyTime: "12:35",
+    translatedText:
+      "Prefiero un aspecto moderno con un diseño limpio y minimalista. Mucho espacio en blanco y un buen uso del color. ¿Y tú?",
   },
   {
     MyText:
@@ -183,6 +189,8 @@ export const chating_between = [
     FriendText:
       "Absolutely. Accessibility is key. We need to make sure our website is usable for everyone, including people with disabilities.",
     FriendMyTime: "12:37",
+    translatedText:
+      "Absolutamente. La accesibilidad es clave. Necesitamos asegurarnos de que nuestro sitio web sea utilizable para todos, incluidas las personas con discapacidades.",
   },
   {
     MyText:
@@ -192,6 +200,8 @@ export const chating_between = [
     FriendText:
       "Good points. What about the technical stack? Are you thinking of using any specific technologies or frameworks?",
     FriendMyTime: "12:39",
+    translatedText:
+      "Buenos puntos. ¿Qué hay sobre el stack técnico? ¿Estás pensando en usar alguna tecnología o marco específico?",
   },
   {
     MyText:
@@ -201,6 +211,8 @@ export const chating_between = [
     FriendText:
       "That works for me. React is great for building dynamic UIs, and Node.js with Express is perfect for creating a robust backend. What about the database?",
     FriendMyTime: "12:41",
+    translatedText:
+      "Eso funciona para mí. React es genial para construir interfaces dinámicas, y Node.js con Express es perfecto para crear un backend robusto. ¿Qué hay sobre la base de datos?",
   },
   {
     MyText:
@@ -210,6 +222,8 @@ export const chating_between = [
     FriendText:
       "MongoDB is a good choice. It's easy to scale and handle large amounts of data. We should also think about deploying the website. Any thoughts on that?",
     FriendMyTime: "12:43",
+    translatedText:
+      "MongoDB es una buena opción. Es fácil de escalar y manejar grandes cantidades de datos. También deberíamos pensar en desplegar el sitio web. ¿Alguna idea sobre eso?",
   },
   {
     MyText:
@@ -219,6 +233,8 @@ export const chating_between = [
     FriendText:
       "Vercel or Netlify sound good for the frontend. For the backend, AWS might be a bit overkill for our needs. Heroku could be simpler to manage initially.",
     FriendMyTime: "12:45",
+    translatedText:
+      "Vercel o Netlify suenan bien para el frontend. Para el backend, AWS podría ser un poco excesivo para nuestras necesidades. Heroku podría ser más sencillo de gestionar inicialmente.",
   },
   {
     MyText:
@@ -228,6 +244,8 @@ export const chating_between = [
     FriendText:
       "Yes, we need to have both unit and integration tests. For React, we can use Jest and React Testing Library. For the backend, maybe Mocha and Chai?",
     FriendMyTime: "12:47",
+    translatedText:
+      "Sí, necesitamos tener tanto pruebas unitarias como de integración. Para React, podemos usar Jest y React Testing Library. Para el backend, tal vez Mocha y Chai?",
   },
   {
     MyText:
@@ -237,6 +255,8 @@ export const chating_between = [
     FriendText:
       "Agreed. We can use GitHub Actions or CircleCI for continuous integration. This will help us catch issues early and ensure our codebase remains stable.",
     FriendMyTime: "12:49",
+    translatedText:
+      "De acuerdo. Podemos usar GitHub Actions o CircleCI para la integración continua. Esto nos ayudará a detectar problemas temprano y asegurar que nuestra base de código se mantenga estable.",
   },
   {
     MyText:
@@ -246,8 +266,11 @@ export const chating_between = [
     FriendText:
       "Sounds like a plan! I'm excited to see our project come to life. Let's do this!",
     FriendMyTime: "12:51",
+    translatedText:
+      "¡Suena como un plan! Estoy emocionado de ver nuestro proyecto cobrar vida. ¡Hagámoslo!",
   },
 ];
+
 export const Translate_to = [
   {
     language: "English",
